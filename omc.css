@@ -1,0 +1,40 @@
+@media (max-width:900px) {
+    .navbar {flex-direction: column;}
+}
+      
+.redimention{
+    display: flex;
+    justify-content: center;
+}
+
+.menuderoulant {
+    color: white;
+    display: none;
+
+}
+.navbar li:hover > .menuderoulant{
+    display: flex; 
+    flex-direction: column;
+    position : fixed; 
+}
+body{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+color:white;
+font-size: 30px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    align-items: center;
+    min-height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+}
